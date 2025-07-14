@@ -38,11 +38,18 @@ input[type="number"] {
     margin-bottom: 0rem;
     margin-top: 0rem;
 }
-result{
-    padding: 20px 20px;
-    margin-top:30px;
-    margin-bottom:30px;
+#result{
+   padding: 15px;
+    border: 2px solid #ccc;
+    border-radius: 0px;
+    background-color: #f9f9f9;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
     text-align: center;
-    font-size: 2rem;
-    font-weight: 900;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 60px;
 }
